@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 850px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 30px 0 20px 30px;
+    background-color: #3598DB;
+    color: white;
+}
+
+.green__box{
+    width: 470px;
+    margin: 25px auto;
+    background-color: #2DCC70;
+    padding: 30px;
+    border-radius: 5px;
+    border: 2px solid darkgreen;
+}
+
+.green__box p:nth-child(2){
+    text-align: end;
+    margin-top: 15px;
+}
+
+.red__box{
+    width: 280px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #E84C3D;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    border:2px solid rgb(129, 9, 9);
+}
+
+a{
+    color:white;
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.section__button{
+    padding: 45px 30px;
+    background-color: #2D3E50;
+    color: white;
+}
+
+
+
+.section__button p{
+    margin-top: 20px;
+}
+
+.section__button h3{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+footer{
+    background-color: #1C2124;
+    color: rgb(79, 137, 168);
+    padding: 15px;
+}
+
+footer li, span,a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+    color: rgb(79, 137, 168);
+}
+
+.nav__headar{
+    width: 570px;
+    margin: 0 auto;
+}
